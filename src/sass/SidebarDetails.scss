@@ -1,0 +1,14 @@
+.row{
+    position: relative !important;
+    .addCart{
+        width: 250px !important;
+        height: 60px;
+        background-color: rgb(200, 5, 5);
+        color: white;
+        border-radius: 0;
+        &:hover{
+            transition-duration: 0.5s;
+            background-color: black;
+        }
+    }
+}

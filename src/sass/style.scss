@@ -1,0 +1,271 @@
+body{
+    overflow-x: hidden
+}
+.dark{
+    background-color: rgb(55, 55, 55) !important;
+    color: white !important;
+    .navbar-active{
+     
+      background-color: #333 !important;
+      color: #fff;
+    }
+    .navbar{
+      background: transparent;
+       background-color: #333 !important;
+      .navbar-logo{
+        background-image: url(https://sarto.qodeinteractive.com/wp-content/uploads/2018/04/logo-light-2.png);
+        backdrop-filter: blur(10px);
+      }
+      .navbar-links{
+        a{
+          text-shadow: 2px 1px #484848;
+        }
+      }
+    }
+    .section2{
+      background-color: #dbdbdb;
+      .row{
+        .section2-card1{
+          background-color: #dbdbdb;;
+        }
+        .section2-card2{
+          background-color: #a5a5a5;;
+        }
+        .section2-card3{
+          background-color: #dbdbdb;;
+        }
+      }
+     }
+     .section-5{
+      .row{
+        .card{
+          background-color: rgb(55, 55, 55);
+          .card-body{
+            .card-title{
+              color: #fff;
+            }
+            .card-text{
+              color: #fff;
+            }
+          }
+        }
+      }
+     }
+     .sidebar-section2{
+      .sidebar-section2-part1{
+        .col-md-4{
+          background-color: rgb(55, 55, 55);
+          .card-body{
+            color: #fff;
+          }
+        }
+      }
+      .sidebar-section2-part1{
+        .filterCategory{
+          ul{
+            li{
+              color: white;
+            }
+          }
+        }
+      }
+     }
+     .b-color{
+      background-color: #282626;
+     }
+     .container{
+      .table{
+        
+        thead{
+          tr{
+            th{
+              background-color: #333 !important;
+              color: #fff;
+            }
+              
+            
+          }
+        }
+        tbody{
+          tr{
+            th{
+              background-color: #333 !important;
+              color: #fff;
+            }
+          }
+        }
+      }
+     }
+     .cart-main{
+      background-color: #808080;
+     }
+     .section-4{
+      .row{
+        .section4-img{
+          background-color: rgb(55, 55, 55);
+          .card-body{
+            background-color:  rgb(55, 55, 55);
+            .card-title{
+              color: white;
+              text-shadow: 2px 1px #707070;
+            }
+          }
+        }
+      }
+     }
+     .recommend-page{
+      .recommend-product{
+        .row{
+          .col-md-4{
+            background-color: #282626;
+            color: #fff;
+          }
+        }
+      }
+     }
+    .py-3{
+      width: 100% !important;
+      background-color: rgb(55, 55, 55) !important
+       ;
+       
+       
+      footer{
+          ul{
+              .footer-part{
+                .footer-logo{
+                  background-image: url(https://sarto.qodeinteractive.com/wp-content/uploads/2018/04/logo-footer.png);
+              }
+                  li{
+                      color: white  !important;
+                      a{
+                          color: white !important;
+                       
+                          &:hover{
+                              transition-duration: 0.5s;
+                              color: #bb1a14;
+                          }
+                      }
+                  }
+          
+              }
+          }
+          p{
+              color: white;
+              
+              &:hover{
+                  transition-duration: 0.5s;
+                  color: #bb1a14;
+              }
+          }
+      }
+  
+  }
+  .aboutus-section2{
+    .row{
+      .section2-card{
+        background-color: black !important;
+        color: white !important;
+      }
+    }
+
+  }
+ 
+}
+   .light{
+    background-color: white !important;
+    color: rgb(46, 46, 46);
+
+    .navbar{
+      background-color: white !important;
+      color: #333;
+      .navbar-logo{
+        background-image: url(https://sarto.qodeinteractive.com/wp-content/uploads/2018/04/Logo-dark.png);
+      }
+      .navbar-links {
+        background-color: transparent ;
+        a {
+          color: #333;
+        }
+      }
+      .nav-icon {
+        background-color: transparent ;
+        .nav-icon-part{
+          button{
+            color: #333;
+          }
+          i{
+            color: #333;
+          }
+        }
+      }
+      .navbar-toggle{
+        span{
+          background-color: #333;
+        }
+      }
+    }
+    
+    .py-3{
+      width: 100% !important;
+      background-color: white !important ;
+      footer{
+          ul{
+              .footer-part{
+                  li{
+                      color: black !important;
+                      a{
+                        color: black !important;
+                       
+                          &:hover{
+                              transition-duration: 0.5s;
+                              color: #bb1a14;
+                          }
+                      }
+                  }
+          
+              }
+          }
+          p{
+            color: black !important;
+              
+              &:hover{
+                  transition-duration: 0.5s;
+                  color: #bb1a14;
+              }
+          }
+      }
+  
+  }
+}
+
+
+
+@import "../sass/AboutUs.scss";
+
+@import "../sass/Basket.scss";
+
+@import "../sass/FAQ.scss";
+
+@import "../sass/Footer.scss";
+
+@import "../sass/Header.scss";
+
+@import "../sass/Home.scss";
+
+@import "../sass/Login.scss";
+
+@import "../sass/OurStudio.scss";
+
+@import "../sass/ProductDetails.scss";
+
+@import "../sass/Sidebar.scss";
+
+@import "../sass/SidebarDetails.scss";
+
+@import "../sass/WhatWeDo.scss";
+
+@import "../sass/SingleCard.scss";
+
+@import "../sass/Payment.scss";
+
+@import "../sass/Wishlist.scss"

@@ -1,0 +1,99 @@
+.cart-main{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(224, 223, 223);
+    display: flex;
+    align-items: center;
+    p{
+        font-size: 70px;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+}
+.backToShop{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .mt-3{
+        width: 250px !important;
+        height: 60px;
+        background-color: rgb(200, 5, 5);
+        color: white;
+        border-radius: 0;
+        list-style: none;
+        &:hover{
+            transition-duration: 0.5s;
+            background-color: black;
+            color: white;
+        }
+    
+    }
+}
+table{
+    tbody{
+        .product-name{
+            text-decoration: none;
+            color: rgb(200, 5, 5);
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        del{
+            color: rgb(200, 5, 5);
+        }
+        .quantity{
+            p{
+                width: 40px;
+                height: 40px;
+                border: 1px solid rgb(186, 186, 186);
+                border-right: 0;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .quantity-main{
+                display: flex;
+                flex-direction: column;
+                .quantity-button{
+                    border-radius: 0;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 20px;
+                    height: 20px;
+                    background-color: white !important;
+                    color: rgb(100, 100, 100);
+                    border-color: rgb(186, 186, 186);
+                    font-size: 10px;
+                }
+            }
+        }
+        .delete-button{
+            background-color: rgb(200, 5, 5);
+            color: white;
+            border-radius: 0;
+            border: 0;
+            &:hover{
+                background-color: rgb(170, 3, 3);
+                color: white;
+            }
+        }
+    }
+}
+
+.finish-payment{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    .emptyCart{
+        width: 250px;
+        height: 60px;
+        background-color: rgb(200, 5, 5);
+        color: white;
+        border-radius: 0;
+        &:hover{
+            background-color: rgb(170, 3, 3);
+            color: white;
+        }
+        
+    }
+}

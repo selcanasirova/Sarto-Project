@@ -1,0 +1,82 @@
+.container{
+    table{
+        thead{
+            tr{
+                @media (max-width:570px) {
+                    font-size: 12px;
+                  }
+            }
+        }
+        tbody{
+            tr{
+                @media (max-width:570px) {
+                    font-size: 10px;
+                  }
+                img{
+                    @media (max-width:570px) {
+                        width: 90px;
+                   }
+                   @media (max-width:570px) {
+                    width: 50px;
+                  }
+                  @media (max-width:366px) {
+                    width: 30px;
+                  } 
+                }
+                b{
+                    @media (max-width:570px) {
+                        font-size: 10px;
+                      }
+                }
+                del{
+                    @media (max-width:570px) {
+                        font-size: 10px;
+                      }
+                }
+                .quantity{
+                    p{
+                        @media (max-width:660px) {
+                            width: 20px;
+                            height: 20px;
+                          }
+                    }
+                    @media (max-width:660px) {
+                        .quantity-main{
+                            button{
+                                height: 10px;
+                                width: 10px;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                i{
+                                    font-size: 10px;
+                                }
+                            
+                        }
+                        }
+                      }
+                    
+                    
+                }
+                h4{
+                    @media (max-width:570px) {
+                        font-size: 10px;
+                      }
+                }
+                button{
+                    @media (max-width:570px) {
+                        height: 20px;
+                        width: 20px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        i{
+                            font-size: 10px;
+                        }
+                      }
+                    
+                }
+            }
+        }
+    }
+}
